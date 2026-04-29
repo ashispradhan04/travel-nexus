@@ -1,0 +1,86 @@
+:root {
+  /* Colors */
+  --light: #ffffff;
+  --dark: #131311;
+  --grey-400: #888888;
+  
+  /* Primary Colors */
+  --primary-50: #e0f7eb;
+  --primary-700: #2f895c;
+  
+  /* Success Colors */
+  --success-100: #e7f6ef;
+  --success-200: #b9e6ce;
+  --success-600: #19643d;
+  
+  /* Warning Colors */
+  --warning-100: #faf3e2;
+  --warning-600: #765300;
+  
+  /* Overlay Colors */
+  --overlay-dark-4: rgba(0, 0, 0, 0.04);
+  --overlay-dark-8: rgba(0, 0, 0, 0.08);
+  --overlay-dark-32: rgba(0, 0, 0, 0.32);
+  --overlay-dark-48: rgba(0, 0, 0, 0.48);
+  
+  /* Brand Colors */
+  --vitality: #47cd89;
+  --evergreen: #093227;
+  
+  /* Neutral Colors */
+  --neutral-100: #f5f5f3;
+  --neutral-600: #888886;
+  
+  /* Spacing */
+  --spacing-0: 0px;
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-32: 32px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  
+  /* Border Radius */
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  
+  /* Shadows */
+  --shadow-xs: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 1px 2px 0px rgba(6, 37, 25, 0.05);
+  --shadow-md: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 1px 4px 0px rgba(6, 37, 25, 0.05), 0px 4px 12px 0px rgba(6, 37, 25, 0.08);
+  
+  /* Typography */
+  --font-family-sans: 'DM Sans', sans-serif;
+  --font-family-mono: 'DM Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--neutral-100);
+  color: var(--dark);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+p {
+  font-family: inherit;
+}

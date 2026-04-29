@@ -1,0 +1,104 @@
+/* filepath: src/components/FrequentRoutes.css */
+.frequent-routes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.frequent-routes__header {
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+
+.frequent-routes__title {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--grey-400);
+  letter-spacing: 0.05em;
+}
+
+.frequent-routes__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.frequent-routes__row {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.frequent-routes__card {
+  display: flex;
+  flex: 1;
+  padding: 16px;
+  background-color: var(--light);
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-xs);
+}
+
+.frequent-routes__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.frequent-routes__route {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.frequent-routes__city {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.frequent-routes__route svg {
+  color: var(--overlay-dark-48);
+}
+
+.frequent-routes__badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: var(--radius-12);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.frequent-routes__badge--policy {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+}
+
+.frequent-routes__badge--approval {
+  background-color: var(--warning-100);
+  color: var(--warning-600);
+}
+
+.frequent-routes__details {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grey-400);
+}
+
+.frequent-routes__price {
+  display: flex;
+  align-items: center;
+}
+
+.frequent-routes__price span {
+  font-family: var(--font-family-mono);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+}

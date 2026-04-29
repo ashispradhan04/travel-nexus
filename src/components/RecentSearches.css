@@ -1,0 +1,122 @@
+/* filepath: src/components/RecentSearches.css */
+.recent-searches {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.recent-searches__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.recent-searches__title {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--grey-400);
+  letter-spacing: 0.05em;
+}
+
+.recent-searches__clear {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-700);
+}
+
+.recent-searches__clear:hover {
+  text-decoration: underline;
+}
+
+.recent-searches__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.recent-searches__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: var(--light);
+  border-radius: var(--radius-12);
+  box-shadow: var(--shadow-xs);
+}
+
+.recent-searches__airline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-8);
+  background-color: var(--overlay-dark-4);
+  color: var(--overlay-dark-48);
+}
+
+.recent-searches__info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.recent-searches__route {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.recent-searches__city {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.recent-searches__route svg {
+  color: var(--overlay-dark-48);
+}
+
+.recent-searches__badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: var(--radius-12);
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.recent-searches__badge--policy {
+  background-color: var(--primary-50);
+  color: var(--primary-700);
+}
+
+.recent-searches__badge--approval {
+  background-color: var(--warning-100);
+  color: var(--warning-600);
+}
+
+.recent-searches__details {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--grey-400);
+}
+
+.recent-searches__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-searches__price span {
+  font-family: var(--font-family-mono);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--dark);
+}
