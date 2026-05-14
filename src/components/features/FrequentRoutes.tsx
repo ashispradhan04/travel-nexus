@@ -1,5 +1,5 @@
 // filepath: src/components/FrequentRoutes.tsx
-import './FrequentRoutes.css';
+import '../../styles/components/FrequentRoutes.css';
 
 interface Route {
   id: string;

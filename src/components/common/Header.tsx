@@ -1,5 +1,5 @@
 // filepath: src/components/Header.tsx
-import './Header.css';
+import '../../styles/components/Header.css';
 
 interface HeaderProps {
   activeTab?: 'flights' | 'hotels' | 'rail' | 'cars';

@@ -1,5 +1,5 @@
 // filepath: src/components/RecentSearches.tsx
-import './RecentSearches.css';
+import '../../styles/components/RecentSearches.css';
 
 interface RecentSearch {
   id: string;

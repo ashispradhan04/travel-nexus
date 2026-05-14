@@ -1,0 +1,72 @@
+.login-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 32px;
+  min-height: 48px;
+  background-color: var(--light);
+}
+
+.login-header__brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.login-header__brand-mark {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+}
+
+.login-header__brand-name {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+
+.login-header__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-header__link,
+.login-header__support {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  background: none;
+  color: var(--overlay-dark-48);
+  cursor: pointer;
+}
+
+.login-header__support {
+  background-color: var(--light);
+  border: 1px solid var(--overlay-dark-8);
+  color: var(--dark);
+  gap: 8px;
+}
+
+.login-header__support-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-header__support:hover,
+.login-header__link:hover {
+  color: var(--dark);
+}
